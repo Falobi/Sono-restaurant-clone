@@ -1,0 +1,379 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  padding: 0 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.logo {
+  max-width: 110px;
+  position: absolute;
+  top: 15px;
+  left: 48%;
+}
+
+.nav-1 {
+  position: absolute;
+  top: 80px;
+  left: 10%;
+}
+.nav-1 li {
+  float: left;
+  padding-left: 30px;
+}
+.nav-2 {
+  position: absolute;
+  top: 80px;
+  left: 55%;
+}
+.nav-2 li {
+  float: left;
+  padding-left: 30px;
+}
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+.navbar a:hover {
+  color: #b7985d;
+}
+
+.header {
+  background-image: url(img/Sono_Sashimi_Home_Background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1500px;
+  height: 900px;
+}
+.head-text {
+  position: absolute;
+  top: 680px;
+  left: 35%;
+}
+.head-text h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.head-text p {
+  font-size: 20px;
+  color: #b7985d;
+}
+.mid-point {
+  background-image: url(img/patern-dark-bg.jpg);
+}
+.half {
+  position: relative;
+}
+.half h4 {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 50px;
+}
+.half p {
+  font-size: 16px;
+  padding-top: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.direct-1 img,
+.direct-2 img {
+  width: 20px;
+}
+
+.slide {
+  position: relative;
+  height: 350px;
+}
+.banner-1 {
+  position: absolute;
+  top: 250px;
+  max-width: 22%;
+}
+.banner-2 {
+  position: absolute;
+  right: 0;
+  bottom: -320px;
+  max-width: 25%;
+}
+
+.direct-1 {
+  position: absolute;
+  top: 50%;
+  left: -50px;
+  cursor: pointer;
+}
+.direct-2 {
+  position: absolute;
+  top: 50%;
+  left: 1200px;
+  cursor: pointer;
+}
+
+.fame {
+  position: relative;
+  top: 120px;
+  width: 700px;
+}
+
+.fame img {
+  width: 170px;
+  height: 134px;
+}
+.cup img {
+  width: 100px;
+  height: 120px;
+}
+.award {
+  position: absolute;
+  width: 150px;
+  left: 20px;
+}
+.win {
+  position: absolute;
+  width: 150px;
+  left: 210px;
+}
+.fork {
+  position: absolute;
+  width: 150px;
+  left: 390px;
+}
+.wine {
+  position: absolute;
+  width: 150px;
+  left: 570px;
+}
+.savour {
+  position: absolute;
+  width: 150px;
+  left: 760px;
+}
+.cup {
+  position: absolute;
+  width: 150px;
+  left: 980px;
+}
+
+.bookings {
+  position: relative;
+  border-top: 1px solid #fff;
+  height: 360px;
+}
+.add {
+  padding-top: 70px;
+  max-width: 33%;
+}
+.lunch {
+  position: absolute;
+  max-width: 33%;
+  margin-left: 35%;
+  top: 0;
+}
+.dinner {
+  position: absolute;
+  max-width: 33%;
+  margin-left: 70%;
+  top: 0;
+}
+.add a {
+  color: #fff;
+  text-decoration: none;
+}
+.add a:hover {
+  color: #b7985d;
+}
+.bookings h4 {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #fff;
+  text-align: none;
+  padding-top: 70px;
+}
+.bookings p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 0;
+  font-weight: 100;
+}
+.bookings h6 {
+  color: #b7985d;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.collage {
+  position: relative;
+  height: 160px;
+  width: 100%;
+}
+.collage img {
+  max-width: 180px;
+  height: 160px;
+}
+.menu-1 img,
+.menu-2 img,
+.menu-4 img,
+.menu-8 img {
+  width: 180px;
+}
+.menu-1 {
+  position: absolute;
+  top: 0;
+  max-width: 15%;
+}
+.menu-2 {
+  position: absolute;
+  top: 0;
+  max-width: 15%;
+  left: 13%;
+}
+.menu-3 {
+  position: absolute;
+  max-width: 13%;
+  min-height: 170px;
+  top: 0;
+  left: 26%;
+}
+.menu-4 {
+  position: absolute;
+  top: 0;
+  max-width: 14%;
+  min-height: 170px;
+  left: 38%;
+}
+.menu-5 {
+  position: absolute;
+  top: 0;
+  max-width: 12.5%;
+  left: 52%;
+}
+.menu-6 {
+  position: absolute;
+  top: 0;
+  max-width: 12.5%;
+  left: 64%;
+}
+.menu-7 {
+  position: absolute;
+  top: 0;
+  max-width: 12.5%;
+  left: 76%;
+}
+.menu-8 {
+  position: absolute;
+  top: 0;
+  max-width: 12%;
+  left: 86.6%;
+}
+.instagram {
+  background-color: #110504;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.instagram img {
+  width: 23px;
+}
+.instagram a {
+  text-decoration: none;
+  color: white;
+}
+.instagram a:hover {
+  color: #b7985d;
+}
+.details {
+  background-image: url(img/patern-dark-bg.jpg);
+}
+.about h4 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-top: 50px;
+}
+.about p {
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: 100;
+  padding-top: 20px;
+}
+.form {
+  max-width: 1000px;
+  height: 150px;
+  margin: 0 auto;
+}
+.form p {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 0;
+  font-weight: 100;
+}
+.name {
+  border-top: 1px solid blanchedalmond;
+  display: inline-block;
+  width: 300px;
+  margin-top: 70px;
+  margin-left: 100px;
+}
+.email {
+  border-top: 1px solid blanchedalmond;
+  display: inline-block;
+  width: 300px;
+  margin-top: 70px;
+  margin-left: 20px;
+}
+.submit {
+  display: inline-block;
+  margin-top: 70px;
+  margin-left: 50px;
+}
+.submit a {
+  text-decoration: none;
+  color: #b7985d;
+  cursor: pointer;
+}
+
+footer {
+  background: #090303;
+  padding: 18px;
+}
+footer p {
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 100;
+  margin-left: 10px;
+}
+footer img {
+  width: 23px;
+}
+.face {
+  display: inline-block;
+  margin-left: 800px;
+  padding-top: 10px;
+}
